@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && grounded)
         {
+            grounded = false;
             jump = true;
         }
     }
