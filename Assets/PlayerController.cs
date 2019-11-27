@@ -10,13 +10,15 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 9f;
     private Rigidbody2D rb2D;
     private Animator anim;
-    private bool jump; 
+    private bool jump;
+    Object bulletRef;
 
 
     // Start is called before the first frame update
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        bulletRef = Resources.Load("Bullet");
         anim = GetComponent<Animator>();
 
     }
@@ -31,6 +33,13 @@ public class PlayerController : MonoBehaviour
         {
             grounded = false;
             jump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            anim.Play("Player_Fire");
+            GameObject bullet = (GameObject)Instantiate(bulletRef);
+            bullet.transform.position = new Vector3(transform.position.x + 1.2f, transform.position.y + .56f, -1);
         }
     }
 
