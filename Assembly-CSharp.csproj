@@ -66,6 +66,7 @@
     <Compile Include="Assets\cameraFollow.cs" />
     <Compile Include="Assets\CheckGround.cs" />
     <Compile Include="Assets\DrawMobileLine.cs" />
+    <Compile Include="Assets\Pause.cs" />
     <Compile Include="Assets\PlataformFalling.cs" />
     <Compile Include="Assets\PlataformMobile.cs" />
     <Compile Include="Assets\PlayerController.cs" />

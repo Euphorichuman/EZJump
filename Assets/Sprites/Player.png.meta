@@ -1223,10 +1223,10 @@ TextureImporter:
       name: Player_47
       rect:
         serializedVersion: 2
-        x: 376
-        y: 2926
-        width: 101
-        height: 74
+        x: 377
+        y: 2928
+        width: 99
+        height: 71
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1243,10 +1243,10 @@ TextureImporter:
       name: Player_48
       rect:
         serializedVersion: 2
-        x: 501
-        y: 2926
-        width: 99
-        height: 72
+        x: 502
+        y: 2928
+        width: 97
+        height: 71
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,10 +1263,10 @@ TextureImporter:
       name: Player_49
       rect:
         serializedVersion: 2
-        x: 622
-        y: 2926
-        width: 123
-        height: 72
+        x: 601
+        y: 2928
+        width: 142
+        height: 71
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1283,10 +1283,10 @@ TextureImporter:
       name: Player_50
       rect:
         serializedVersion: 2
-        x: 747
-        y: 2926
-        width: 104
-        height: 72
+        x: 749
+        y: 2928
+        width: 99
+        height: 71
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1303,10 +1303,10 @@ TextureImporter:
       name: Player_51
       rect:
         serializedVersion: 2
-        x: 873
-        y: 2926
-        width: 99
-        height: 72
+        x: 874
+        y: 2928
+        width: 96
+        height: 71
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
