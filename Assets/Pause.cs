@@ -21,7 +21,7 @@ public class Pause : MonoBehaviour
         {
             active = !active;
             canvas.enabled = active;
-            Time.timeScale = (active) ? 0 : 1f; 
+            Time.timeScale = (active) ? 0 : 1f;
         }
 
     }
