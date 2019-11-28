@@ -6,6 +6,7 @@ public class Pause : MonoBehaviour
 {
     bool active;
     Canvas canvas;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,6 @@ public class Pause : MonoBehaviour
             active = !active;
             canvas.enabled = active;
             Time.timeScale = (active) ? 0 : 1f;
-        }
-
-    }
+            }
+            }
 }
