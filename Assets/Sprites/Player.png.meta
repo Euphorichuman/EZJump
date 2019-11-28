@@ -1223,10 +1223,10 @@ TextureImporter:
       name: Player_47
       rect:
         serializedVersion: 2
-        x: 376
-        y: 2926
-        width: 101
-        height: 74
+        x: 377
+        y: 2928
+        width: 99
+        height: 71
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1243,10 +1243,10 @@ TextureImporter:
       name: Player_48
       rect:
         serializedVersion: 2
-        x: 501
-        y: 2926
-        width: 99
-        height: 72
+        x: 502
+        y: 2928
+        width: 97
+        height: 69
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,10 +1263,10 @@ TextureImporter:
       name: Player_49
       rect:
         serializedVersion: 2
-        x: 622
-        y: 2926
-        width: 123
-        height: 72
+        x: 601
+        y: 2928
+        width: 142
+        height: 69
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1283,10 +1283,10 @@ TextureImporter:
       name: Player_50
       rect:
         serializedVersion: 2
-        x: 747
-        y: 2926
-        width: 104
-        height: 72
+        x: 749
+        y: 2928
+        width: 99
+        height: 69
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1303,10 +1303,10 @@ TextureImporter:
       name: Player_51
       rect:
         serializedVersion: 2
-        x: 873
-        y: 2926
-        width: 99
-        height: 72
+        x: 874
+        y: 2928
+        width: 97
+        height: 69
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1600,33 +1600,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_66
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2606
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d249b10afcfa23441818d9fd8eadbbb7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Player_67
       rect:
         serializedVersion: 2
-        x: 10
-        y: 2598
-        width: 57
-        height: 21
+        x: 11
+        y: 2599
+        width: 55
+        height: 19
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1643,10 +1623,10 @@ TextureImporter:
       name: Player_69
       rect:
         serializedVersion: 2
-        x: 77
-        y: 2598
-        width: 62
-        height: 21
+        x: 82
+        y: 2599
+        width: 55
+        height: 19
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1663,10 +1643,10 @@ TextureImporter:
       name: Player_70
       rect:
         serializedVersion: 2
-        x: 145
-        y: 2596
-        width: 61
-        height: 21
+        x: 149
+        y: 2598
+        width: 55
+        height: 19
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1783,12 +1763,12 @@ TextureImporter:
       name: Player_77
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2538
-        width: 59
-        height: 54
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3
+        y: 2540
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1803,12 +1783,12 @@ TextureImporter:
       name: Player_78
       rect:
         serializedVersion: 2
-        x: 63
-        y: 2538
-        width: 58
-        height: 56
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 65
+        y: 2539
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
