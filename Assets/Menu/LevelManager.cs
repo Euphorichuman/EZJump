@@ -18,26 +18,39 @@ public class LevelManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return) )
             {
+            Camera.main.GetComponent<AudioSource>().Stop();
+            GameObject.Find("Button_Press").GetComponent<AudioSource>().Play();
             SceneManager.LoadScene("Game");
 
            
         }
     }
     public void cargarNivel(string SampleScene) {
-        SceneManager.LoadScene("Game");
+        Camera.main.GetComponent<AudioSource>().Stop();
+        GameObject.Find("Button_Press").GetComponent<AudioSource>().Play();
+SceneManager.LoadScene("Game");
+
 
     }
 
     public void CargarSettings(string SettingScene) {
+        Camera.main.GetComponent<AudioSource>().Stop();
+        GameObject.Find("Button_Settings").GetComponent<AudioSource>().Play();
+
         SceneManager.LoadScene("SettingScene");
     }
 
     public void BacktoInicio(string Inicio)
     {
-        SceneManager.LoadScene("Inicio");
+        
+        
+          SceneManager.LoadScene("Inicio");
     }
 
     public void Salir() {
+        Camera.main.GetComponent<AudioSource>().Stop();
+        GameObject.Find("Button_Exit").GetComponent<AudioSource>().Play();
+
         Application.Quit();
     }
     
