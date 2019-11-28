@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8842401775371173334}
   - component: {fileID: 1621756451850579180}
   - component: {fileID: 61190513451991612}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Plataform 1x1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +68,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300006, guid: 96bdae319c368b04fb7980c9280f261c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

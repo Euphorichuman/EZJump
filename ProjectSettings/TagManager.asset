@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Plataform
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Collider
   - Player
   - Ground
-  - 
+  - Enemies
   - 
   - 
   - 
@@ -45,4 +46,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3827359449
+    locked: 0
+  - name: HealtPlayer
+    uniqueID: 3123794343
+    locked: 0
+  - name: Interface
+    uniqueID: 2722115015
     locked: 0

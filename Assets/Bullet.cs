@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    Rigidbody2D rb2D;
+    public Rigidbody2D rb2D;
+    public float speed = 10f;
+    public GameObject impactEffect;
+
     // Start is called before the first frame update
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>();
+        rb2D.velocity = transform.right * speed;
         Invoke("DestroySelf", .4f);
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        rb2D.velocity = new Vector2(10, 0);
-
-    }
-
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-
-        if (col.gameObject.CompareTag("Plataform") || col.gameObject.CompareTag("Ground"))
+        Debug.Log(hitInfo.name);
+        /*Enemy enemy = hitInfo.GetComponent<Enemy>();
+        if (enemy != null)
         {
-            DestroySelf();
-        }
+            enemy.TakeDamage(damage);
+        }*/
+
+        Instantiate(impactEffect, transform.position, transform.rotation);
+        DestroySelf();
     }
 
     private void DestroySelf()
