@@ -1,2 +1,2 @@
 # EZJump
-Este es un proyecto academico creado en Unity por un grupo de estudiantes de ingenieria de sistemas.
+Proyecto académico (videojuego de plataformas y disparos) creado en Unity.
